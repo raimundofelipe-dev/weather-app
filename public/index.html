@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima Agora</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Clima Agora</h1>
+      <p class="description">
+        Consulte a previsão do tempo para qualquer cidade do mundo. Digite o
+        nome da cidade abaixo e clique em "Buscar" para ver a temperatura, vento
+        e condições climáticas atuais.
+      </p>
+      <input
+        type="text"
+        id="city"
+        placeholder="Digite a cidade ex: Fortaleza"
+      />
+      <button id="btnBuscar">Buscar</button>
+      <section id="result"></section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
